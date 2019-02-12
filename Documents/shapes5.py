@@ -14,3 +14,7 @@ bQuad.draw(bTriWin)
 bPenta = Polygon(Point(0, 300), Point(50, 300), Point(50, 250), Point(25, 225), Point(0,250))
 bPenta.setFill(color_rgb(200,30,200))
 bPenta.draw(bTriWin)
+#hexagon
+bHexa = Polygon(Point(200, 50), Point(225, 100),Point(275, 100), Point(300,50), Point(275,0), Point(225,0))
+bHexa.setFill(color_rgb(30,225,40))
+bHexa.draw(bTriWin)
