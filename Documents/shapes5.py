@@ -10,5 +10,7 @@ bTri.draw(bTriWin)
 bQuad = Polygon(Point(0,50), Point(50,50), Point(50,0), Point(0,0))
 bQuad.setFill(color_rgb(200, 30, 30))
 bQuad.draw(bTriWin)
-
-
+#penta
+bPenta = Polygon(Point(0, 300), Point(50, 300), Point(50, 250), Point(25, 225), Point(0,250))
+bPenta.setFill(color_rgb(200,30,200))
+bPenta.draw(bTriWin)
