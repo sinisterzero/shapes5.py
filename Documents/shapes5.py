@@ -18,3 +18,7 @@ bPenta.draw(bTriWin)
 bHexa = Polygon(Point(200, 60), Point(225, 110),Point(275, 110), Point(300,60), Point(275,10), Point(225,10))
 bHexa.setFill(color_rgb(30,225,40))
 bHexa.draw(bTriWin)
+#diamond
+bDia = Polygon(Point(150,200), Point(200,150), Point(150,100), Point(100,150))
+bDia.setFill(color_rgb(70,80,75))
+bDia.draw(bTriWin)
