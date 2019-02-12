@@ -1,6 +1,8 @@
 from graphics import*
+winW = 300
+winH = 300
 
-bTriWin = GraphWin("Blue Triangle", 300, 300)
+bTriWin = GraphWin("Blue Triangle", winW, winH)
 bTriWin.setCoords(0, 0, 300, 300)
 #triangle
 bTri = Polygon(Point(250,290), Point(290, 290), Point(265, 240))
@@ -19,6 +21,6 @@ bHexa = Polygon(Point(200, 60), Point(225, 110),Point(275, 110), Point(300,60), 
 bHexa.setFill(color_rgb(30,225,40))
 bHexa.draw(bTriWin)
 #diamond
-bDia = Polygon(Point(150,200), Point(200,150), Point(150,100), Point(100,150))
+bDia = Polygon(Point(winW/2,200), Point(200,winH/2), Point(winW/2,100), Point(100,winH/2))
 bDia.setFill(color_rgb(70,80,75))
 bDia.draw(bTriWin)
